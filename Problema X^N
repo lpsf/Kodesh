@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main ()
+{ 
+    int x;
+    
+    scanf("%i",&x);
+    
+    int n;
+    scanf("%d",&n);
+    
+    int contador;
+    if (n == 0)
+    {
+        printf("1");
+    }
+    
+    else {
+    do {
+    int y = x*x;
+    y = x*y;
+    
+    contador = contador +1;
+    }
+    
+    while (contador < n);
+    
+    printf("%i", x);
+    return 0;
+    };
+}
