@@ -17,14 +17,13 @@ int main ()
     
     else {
     do {
-    int y = x*x;
-    temp = y
-    x = x*y;
+   
+   // multiplicar x por x e guardar valor e multiplicar de novo se contador não tiver chegado a n
     
     contador = contador +1;
     }
     
-    while (contador < n);
+    while (contador <= n);
     
     printf("%i", x);
     return 0;
