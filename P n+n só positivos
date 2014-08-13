@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main ()
+{
+    int cont, n, na, nb;
+    cont = 0;
+    na = 0;
+    
+    scanf("%i", &n);
+    
+    while (cont < n) 
+    {
+        scanf("%i", &nb);
+        
+        if (nb >= 0)
+        {
+            na += nb;
+        };
+        
+        ++cont;
+    }
+    printf("%i", na);
+    return 0;
+}
