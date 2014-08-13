@@ -1,0 +1,18 @@
+
+#include<stdio.h>
+
+int main() {
+   int i, n, na, nb;
+    scanf("%i", &n);
+    i = 0;
+    na = 0;
+    while (i < n) 
+    {
+        scanf("%i", &nb);
+        na += nb;
+        ++i;
+    };
+    
+    printf("%i", na);
+    return 0;
+}
