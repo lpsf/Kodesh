@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+    int n, cont, nTemp, nPar, nParB, nImpar, nImparB;
+    cont = 0;
+    nPar = 0;
+    nImpar = 0;
+    
+    scanf("%i", &n);
+    
+    while (cont < n)
+    {
+        scanf("%i", &nTemp);
+        if (nTemp%2 == 0)
+        {
+            nParB = nTemp;
+            nPar += nParB;
+        }
+        
+        else
+        {
+            nImparB = nTemp;
+            nImpar += nImparB;
+        };
+        ++cont;
+    };
+    printf("%i %i", nPar, nImpar);
+    return 0;
+}
