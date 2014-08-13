@@ -6,7 +6,7 @@ int main ()
     scanf("%i",&x);
     
     int n;
-    scanf("%n",&n);
+    scanf("%i",&n);
     int y = x;
     int contador;
  
