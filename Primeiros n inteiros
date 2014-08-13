@@ -1,0 +1,20 @@
+#include <stdio.h>
+int main ()
+{
+    int n, cont, nB, nA, nTemp;
+    cont = 0;
+    scanf("%i", &n);
+    nB = 0;
+    nA = 0;
+
+    while (cont < n)
+    {
+        //aumentar nB a cada rodada mas guardar o resultado e somar ao da rodada seguinte
+       nA = nB + 1;
+       nTemp = nB + nA;
+       ++cont;
+       ++nB;
+    };
+    printf("%i", nTemp);
+    return 0;
+}
