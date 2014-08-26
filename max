@@ -3,10 +3,12 @@ int main()
 {
     int m, n, x, y, f, teste;
     scanf("%d %d", &m, &n);
-	teste = x + y + f;
+    teste = x + y + f;
+    testef = 0;
   
   while (testef >= teste)
   {
+        testef = teste
         for(x = 0; x <= m; x++)
         {
             for(y = 0; y <= n; y++)
@@ -15,7 +17,7 @@ int main()
               
                 f = (x*y) - (x*x) + y;
                 printf("x = %i y = %i, f = %i\n", x, y, f); 
-                 testef = teste
+                 
             }
         } 
        
