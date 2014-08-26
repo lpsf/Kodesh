@@ -1,25 +1,25 @@
 #include <stdio.h>
 int main()
 {
-    int m, n, x, y, max, f;
-    scanf("%d %d", &n, &m);
-    max = 0;
-    
-   do
-   {
-    for(x = 0; x <= m; x++)
-    {
-        for(y = 0; y <= n; y++)
+    int m, n, x, y, f, teste;
+    scanf("%d %d", &m, &n);
+	teste = x + y + f;
+  
+  while (testef >= teste)
+  {
+        for(x = 0; x <= m; x++)
         {
-            max = f;
-            f = (x*y) - (x*x) + y;
-            
-        };
-    };
-   }
-   while(max <= f);
-
-    
-    printf("%d x=%d y=%d", f, x, y);
+            for(y = 0; y <= n; y++)
+            {
+                
+              
+                f = (x*y) - (x*x) + y;
+                printf("x = %i y = %i, f = %i\n", x, y, f); 
+                 testef = teste
+            }
+        } 
+       
+	}
+    printf("%d x=%d y=%d", testef, x, y);
     return 0;
 }
