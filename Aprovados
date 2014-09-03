@@ -1,0 +1,39 @@
+#include <stdio.h>
+int main()
+{
+    int n, i, aprovados, reprovados;
+    float nota1, nota2, nota3, media, mediag, mediaf;
+    scanf("%d", &n);
+    
+    aprovados = 0;
+    reprovados = 0;
+    
+    for(i = 1; i <= n; i++)
+    {
+        scanf("%f %f %f", &nota1, &nota2, &nota3);
+        media = (nota1 + nota2 + nota3) / 3;
+        
+        printf("Aluno %d:\n", i);
+        printf("Media: %.1f\n", media);
+        
+        if(media >= 5.0)
+        {
+            aprovados++;
+        }
+        
+        else
+        {
+            reprovados++;
+        };
+        
+        mediag += media;
+    }
+
+    mediaf = mediag / n;
+    printf("Media da Turma: %.1f\n", mediaf);
+    printf("Aprovados: %d\n Reprovados: %d", aprovados, reprovados);
+    
+    return 0;
+    
+}
+    
